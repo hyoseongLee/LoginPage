@@ -1,11 +1,11 @@
 import './App.css'
-import LoginPage from './page/LoginPage'
+import { Toaster } from 'react-hot-toast'
 
 function App() {
 
   return (
     <div className='App'>
-<LoginPage />
+<Toaster position='bottom-right'/>
     </div>
 
   )
